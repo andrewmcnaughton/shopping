@@ -1,7 +1,8 @@
 import { createStore, combineReducers } from 'redux'
+import listReducer from '../features/list/reducer'
 
 const rootReducer = combineReducers({
-	//list: listReducer;
+	list: listReducer
 });
 
 const store = createStore(
