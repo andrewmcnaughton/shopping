@@ -34,7 +34,7 @@ class ToDoList extends Component {
               onChange={this.handleInputChange}
               id="toDoNext"
               type="text"
-              placeholder="Add Item"
+              placeholder="Type to add"
             />
           </div>
         </form>
