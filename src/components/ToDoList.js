@@ -29,12 +29,13 @@ class ToDoList extends Component {
       <div id="todo-add-form" className="col s10 offset-s1">
         <form onSubmit={this.handleFormSubmit}>
           <div className="input-field">
+            <p className="add">Add to list</p>
             <input
               value={addFormValue}
               onChange={this.handleInputChange}
               id="toDoNext"
               type="text"
-              placeholder="Type to Add"
+              placeholder="Item Name"
             />
           </div>
         </form>
