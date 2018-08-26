@@ -65,7 +65,7 @@ class ToDoList extends Component {
   render() {
     return (
       <div className="to-do-list-container">
-        <h1>Lunch run!</h1>
+        <h1>Shopping List</h1>
         <div className="row">
           {this.renderToDos()}
           {this.renderAddForm()}
